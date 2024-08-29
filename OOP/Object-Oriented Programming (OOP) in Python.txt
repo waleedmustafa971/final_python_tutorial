@@ -1,0 +1,10 @@
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which are instances of classes. In Python, everything is an object, including numbers, strings, functions, and classes.
+
+OOP allows you to model real-world entities and their interactions in your programs. It makes your code more modular, reusable, and easier to maintain.
+
+Core Concepts of OOP:
+Class and Object
+Attributes and Methods
+Encapsulation
+Inheritance
+Polymorphism

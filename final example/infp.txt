@@ -1,0 +1,40 @@
+following is a Python program that combines all the past topics, including:
+
+Classes and OOP
+Modules
+File Handling (text, CSV, and JSON)
+Exception Handling
+Using Packages
+Functions
+This code will simulate a basic user management system, where users can be added, retrieved, and stored in files. The program will handle reading from and writing to text, CSV, and JSON files.
+
+Directory Structure:
+
+user_management/
+    __init__.py
+    user.py
+    file_handler.py
+main.py
+
+
+.............................
+
+
+Explanation of the Code:
+User class (user.py):
+
+This class models a user with attributes name, age, and occupation.
+It includes a __repr__ method for easy string representation and a to_dict method to convert the user object to a dictionary (for JSON serialization).
+FileHandler class (file_handler.py):
+
+This class handles file operations for text, CSV, and JSON files.
+It includes methods to read and write to files, handling exceptions like file not found.
+main.py:
+
+This is the main script where instances of the User class are created.
+It demonstrates file handling by writing and reading data to/from text, CSV, and JSON files.
+The script imports both User and FileHandler from their respective modules.
+Execution Flow:
+The program first creates user instances.
+Then it writes user data to a text file, CSV file, and JSON file.
+After that, it reads back the data from each file type and prints it to the console.

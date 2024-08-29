@@ -1,0 +1,1 @@
+Now that you’ve got a solid foundation in Python, especially with OOP, it's time to move on to more advanced topics that will help you build larger, well-organized projects. This includes working with modules, packages, and file handling.

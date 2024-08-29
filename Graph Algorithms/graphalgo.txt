@@ -1,0 +1,8 @@
+Graph Algorithms
+Graph algorithms are foundational in solving many problems involving networks, relationships, or connections. Graphs can be used to model various scenarios, such as social networks, road maps, communication networks, and more. In this phase, we will cover key graph algorithms, including:
+
+Graph Representation
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Dijkstra's Algorithm (Shortest Path)
+Minimum Spanning Trees (Kruskal's and Prim's Algorithm)

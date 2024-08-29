@@ -1,0 +1,27 @@
+
+5. Dynamic Programming (DP)
+Dynamic Programming (DP) is a powerful technique used to solve problems by breaking them down into simpler subproblems and storing the solutions of subproblems to avoid recomputing them. This technique is particularly useful for optimization problems where there are overlapping subproblems and optimal substructure.
+
+Key Concepts:
+Optimal Substructure: The optimal solution of a problem can be constructed from optimal solutions of its subproblems.
+Overlapping Subproblems: The problem can be broken down into subproblems that are solved multiple times.
+Memoization: Storing solutions to subproblems in a lookup table (often implemented as a dictionary or list) to avoid redundant computations.
+Tabulation: Iteratively solving subproblems in a bottom-up manner and storing the results in a table.
+DP can be implemented using two main approaches:
+
+Top-Down (Memoization): Solving the problem recursively and storing the results of subproblems.
+Bottom-Up (Tabulation): Solving the problem iteratively and storing the results in a table.
+Classic Dynamic Programming Problems
+Fibonacci Sequence:
+
+Compute the nth Fibonacci number using DP to avoid redundant calculations.
+0/1 Knapsack Problem:
+
+Given a set of items with weights and values, determine the maximum value that can be obtained by selecting items without exceeding a weight limit.
+Longest Common Subsequence:
+
+Find the longest subsequence common to two sequences.
+Coin Change Problem:
+
+Given a set of coin denominations and a total amount, find the minimum number of coins needed to make that amount.
+Let's start with an easy example: computing the Fibonacci Sequence using dynamic programming.
